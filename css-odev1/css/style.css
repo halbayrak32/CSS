@@ -1,0 +1,387 @@
+
+.sidebar {
+    position:fixed;
+    width: 15%;
+    height:100%    ;
+    font-size: 20px;
+    background: black;
+    opacity: 0.9;
+    min-height: 100vh;
+  }
+
+  .nav {
+    position:relative;
+    margin: 50 10%;
+    text-align: left;
+    top: 30%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }
+  .nav ul {
+    list-style: none;
+    font-family: monospace;
+    transition: 1.5s;
+  }
+  .nav ul a{
+    transition: 0.8s;
+    color: #723feb;
+    font-family:monospace;
+  }
+  .nav ul .active a{
+    color: white;
+    font-family:cursive;
+  }
+  .nav ul a:hover{
+    color: chartreuse;
+  }
+  a {
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: white;
+    transition: 0.6s;
+  }
+  .active a {
+    color: white;
+  }
+  not.active  ::after {
+    opacity: 0.2;
+  }
+  not.active :hover a {
+    color: rgba(#FFF, 0.75);
+  }
+  section {
+   color: black;
+   margin-left: 26%;
+   font-family: monospace;
+   font-size: larger;
+   
+} 
+section p{
+  transition: 1.5s;
+}
+section p:hover{
+  color:chartreuse;
+}
+section .baslik {
+  text-shadow: 0 0 12px #FF0000, 0 0 20px #0000FF;
+    color: #723feb;
+    font-size: 55px;
+    padding-top: 50%;
+    font-weight: bold;
+    font-family:'Press Start 2P', cursive;
+    margin-left: 35% 
+}
+section span:hover{
+  color: aliceblue;
+  transition: 0.7s;
+}
+section .ball img  {
+    height: 60px;    
+    margin-left: 50%;    
+}
+section .ball ul{overflow:hidden;
+}
+section .ball ul li{
+  float: left; margin-right: 20px;
+}
+section .ball ul li img{
+  border: 2px solid #000;}
+
+.clear{ clear: both;}
+
+
+section .hakkımızda img{
+  height: 200px;
+  margin-left: 38%;
+}
+
+.sidebar div img{
+  height: 148px;
+  margin-left:0%;
+  
+}
+.sidebar .social-media{
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  transform:translate(-50%);
+  display: flex;
+}
+.sidebar .social-media a{
+  display: block;
+  width: 70px;
+  font-size:large;
+  background: black;
+  height: 50px;
+  line-height: 50px;
+  text-align:center;
+  margin: 0 10px;
+  color: #7354bc;
+  border-top-right-radius:5px ;
+  border-top-left-radius: 5px;
+  transition: 0.5s;
+}
+.sidebar .social-media a:hover{
+  background: #ffffff;
+  font-size: xx-large;
+}
+
+
+.alt ul{
+  font-size: medium;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-family: monospace;
+}
+.alt li{
+  color: #ffffff;
+  display: inline;
+  margin: 30px;
+  position: relative;
+}
+.alt ul a {
+  color:rgb(110, 15, 110);
+  font-family: monospace;
+  transition: 0.8s;
+}
+.alt ul a:hover{
+  color: chartreuse;
+}
+
+section h1{
+  text-shadow: 0 0 12px #FF0000, 0 0 20px #0000FF;
+  color: chartreuse;
+  font-size: 35px;
+  text-align: left;
+  font-weight: bold;
+  font-family: monospace;
+}
+section .pg img {
+  border: 10px solid white;
+  border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+  box-sizing: border-box;
+  background-color: #1D1F1F;
+  border-radius: 20%;
+  margin: 4em auto;
+  height: 250px;
+  width: 250px;   
+}
+
+section .pg p{
+/* text-align: center; */
+text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+font-size: 30px;
+font-weight: bold;
+transition: 0.5s;
+}
+section .pg p:hover{
+  font-size: 35px;
+}
+section .pg{
+  margin-right: 30%;
+}
+section .sg img{
+  border: 10px solid white;
+  border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+  box-sizing: border-box;
+  background-color: #1D1F1F;
+  border-radius: 20%;
+  margin: 4em auto;
+  margin-left: 83%;
+  height: 250px;
+  width: 250px;   
+  }
+  section .sg p{
+  text-align: right;
+  text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s;
+  }
+  section .sg p:hover{
+    font-size: 35px;
+  }
+  section .sf img{
+    border: 10px solid white;
+    border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+    box-sizing: border-box;
+    background-color: #1D1F1F;
+    border-radius: 20%;
+    margin: 4em auto;
+    height: 250px;
+    width: 250px; 
+    
+    }
+    section .sf p{
+    text-align: left;
+    text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    }
+    section .sf p:hover{
+      font-size: 35px;
+    }
+    section .pf img{
+      border: 10px solid white;
+      border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+      box-sizing: border-box;
+      background-color: #1D1F1F;
+      border-radius: 20%;
+      margin: 4em auto;
+      margin-left: 83%;
+      height: 250px;
+      width: 250px;   
+      }
+      section .pf p{
+      text-align: right;
+      text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+      font-size: 30px;
+      font-weight: bold;
+      transition: 0.5s;
+      }
+      section .pf p:hover{
+        font-size: 35px;
+      }
+      section .c img{
+        border: 10px solid white;
+        border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+        box-sizing: border-box;
+        background-color: #1D1F1F;
+        border-radius: 20%;
+        margin: 4em auto;       
+        height: 250px;
+           
+        }
+        section .c p{
+        text-align: left;
+        text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+        font-size: 30px;
+        font-weight: bold;
+        transition: 0.5s;
+        }
+        section .c p:hover{
+          font-size: 35px;
+        }       
+         
+            
+              /* macTakvimi*/
+              section .slv img{
+                border: 10px solid white;
+                border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+                box-sizing: border-box;
+                background-color: #1D1F1F;
+                border-radius: 20%;
+                margin: 4em auto;
+                height: 250px;
+                   
+                }
+                section .slv p{
+                text-align: left;
+                text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                font-size: 25px;
+                font-weight: bold;
+                transition: 0.5s;
+                }
+                section .slv p:hover{
+                  font-size: 30px;
+                }
+                section .srb img{
+                  border: 10px solid white;
+                  border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;                  
+                  box-sizing: border-box;
+                  background-color: #1D1F1F;
+                  border-radius: 20%;
+                  margin: 4em auto;
+                  margin-left: 75%;
+                  height: 250px;
+                  
+                  }
+                  section .srb p{
+                  text-align: right;
+                  text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                  font-size: 25px;
+                  font-weight: bold;
+                  transition: 0.5s;
+                  }
+                  section .srb p:hover{
+                    font-size: 30px;
+                  }
+                  section .tur img{
+                    border: 10px solid white;
+                    border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+                    box-sizing: border-box;
+                    background-color: #1D1F1F;
+                    border-radius: 20%;
+                    margin: 4em auto;                    
+                    height: 250px;
+                      
+                    }
+                    section .tur p{
+                    text-align: left;
+                    text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                    font-size: 25px;
+                    font-weight: bold;
+                    transition: 0.5s;
+                    }
+                    section .tur p:hover{
+                      font-size: 30px;
+                    }
+                    section .grc img{
+                      border: 10px solid white;
+                      border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+                      box-sizing: border-box;
+                      background-color: #1D1F1F;
+                      border-radius: 20%;
+                      margin: 4em auto;
+                      margin-left: 75%;
+                      height: 250px;
+                       
+                      }
+                      section .grc p{
+                      text-align: right;
+                      text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                      font-size: 25px;
+                      font-weight: bold;
+                      transition: 0.5s;
+                      }
+                      section .grc p:hover{
+                        font-size: 30px;
+                      }
+                      section .alm img{
+                        border: 10px solid white;
+                        border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+                        box-sizing: border-box;
+                        background-color: #1D1F1F;
+                        border-radius: 20%;
+                        margin: 4em auto;                        
+                        height: 250px;
+                        }
+                        section .alm p{
+                        text-align: left;
+                        text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                        font-size: 25px;
+                        font-weight: bold;
+                        transition: 0.5s;
+                        }
+                        section .alm p:hover{
+                          font-size: 30px;
+                        }
+                        .iletisim ul{
+                          text-decoration: none;
+                          list-style: none;
+                        }
+                        .iletisim ul li a{
+                          color:crimson;
+                        }
+                        .map img{
+                          margin-left: 55%;
+                          padding-bottom: 30px;
+                        }
+
+
+
